@@ -1,0 +1,34 @@
+<!--pages/wrong/wrong.wxml-->
+<text>错题：</text>
+<view>
+  <view class="">
+    <text>{{currentWrong.question}}</text>
+  </view>
+  <view class="">
+    <text>{{currentWrong.slTip1}}、{{currentWrong.slContent1}}</text>
+  </view>
+  <view class="">
+    <text>{{currentWrong.slTip2}}、{{currentWrong.slContent2}}</text>
+  </view>
+  <view class="">
+    <text>{{currentWrong.slTip3}}、{{currentWrong.slContent3}}</text>
+  </view>
+  <view class="">
+    <text>{{currentWrong.slTip4}}、{{currentWrong.slContent4}}</text>
+  </view>
+</view>
+
+<view>
+  <view>正确选项为：{{currentWrong.rightSelect}}</view>
+  <view>您的选项为：{{currentWrong.wrongSelect}}</view>
+</view>
+
+<view>
+  <button bindtap='up' wx:if="{{currentID > 0}}">上一题</button>
+  <button bindtap='down' wx:if="{{currentID < listSize-1}}">下一题</button>
+</view>
+
+<view>
+  <button bindtap='goIndex'>返回首页</button>
+</view>
+

@@ -1,0 +1,37 @@
+<!--pages/test/test.wxml-->
+<view class="container">
+  <text>{{currentQestion.question}}</text>
+</view>
+
+<radio-group class="radio-group select" bindchange="radioChange">
+  <view>
+      <label class="radio">
+        <radio value="{{currentQestion.slTip1}}" checked='{{flag}}'/>
+        {{currentQestion.slContent1}}
+      </label>
+  </view>
+
+  <view>
+      <label class="radio">
+        <radio value="{{currentQestion.slTip2}}" checked='{{flag}}'/>
+        {{currentQestion.slContent2}}
+      </label>
+  </view>
+
+  <view>
+      <label class="radio">
+        <radio value="{{currentQestion.slTip3}}" checked='{{flag}}'/>
+        {{currentQestion.slContent3}}
+      </label>
+  </view>
+
+  <view>
+      <label class="radio">
+        <radio value="{{currentQestion.slTip4}}" checked='{{flag}}'/>
+        {{currentQestion.slContent4}}
+      </label>
+  </view>
+
+</radio-group>
+
+

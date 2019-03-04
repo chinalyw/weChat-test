@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 用户 openid -->
+
+  <image mode='center' src='{{avatarUrl}}' ></image>
+
+
+  <text class="welcom">欢迎登录，{{userInfo.nickName}}</text>
+
+  <view class='testBtn'>
+    <button bindtap='startTest' size='mini' type='primary'>开始测试</button>
+  </view>
+  
+  <view class='testBtn'>
+    <button bindtap='addTest' size='mini' type='dufault'>添加题目</button>
+  </view>
+
+
+</view>

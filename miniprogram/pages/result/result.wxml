@@ -1,0 +1,14 @@
+<!--pages/result/result.wxml-->
+<text>做题结果：</text>
+
+<view class="container">
+  <view>共{{questionNum}}题</view>
+  <view>正确{{rightNum}}</view>
+  <view>错误{{wrongNum}}</view>
+</view>
+
+
+<view class="container">
+  <button bindtap="goWrong">查看错题</button>
+  <button bindtap="goIndex">返回首页</button>
+</view>

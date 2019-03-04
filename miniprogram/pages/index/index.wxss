@@ -1,0 +1,16 @@
+/**index.wxss**/
+
+page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.welcom{
+  margin-top: 80rpx;
+  margin-bottom: 50rpx;
+}
+
+.testBtn{
+  margin-top: 50rpx;
+}

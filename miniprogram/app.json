@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/test/test",
+    "pages/addtest/addtest",
+    "pages/wrong/wrong",
+    "pages/result/result"
+  ],
+  "window": {
+    "backgroundColor": "black",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "数学测试",
+    "navigationBarTextStyle": "black"
+  }
+}
